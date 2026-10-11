@@ -104,7 +104,6 @@ graph TD
     CONFIRMACION -.->|Flecha atrás| CHECKOUT
     PERFIL -.->|Flecha atrás| INICIO
 ```
-```markdown
 ### 3.2 Wireframes
 
 ![Wireframe](Capturas/Wireframes/Wireframe.png)
@@ -116,4 +115,3 @@ graph TD
 ![Checkout](Capturas/Wireframes/Checkout.png)
 ![Confirmación compra](Capturas/Wireframes/Confirmacion-compra.png)
 ![Perfil](Capturas/Wireframes/Perfil.png)
-```
