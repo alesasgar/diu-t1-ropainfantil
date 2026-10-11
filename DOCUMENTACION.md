@@ -50,3 +50,70 @@ En la app RainbowKid el diseño centrado en el usuario es fundamental ya que las
    * *Decisión de diseño:* Añadir un botón de confirmación para eliminar el producto.
 4. **Insight 4 Búsqueda de regalo:** Compradores como abuelos o amigos buscan por rangos de edad especificos.
    * *Decisión de diseño:* Hacer un filtro por categorias para los productos Bebé 0-24 m, Niña, Niño.
+
+## 3. Enlazar los Wireframes en `DOCUMENTACION.md`
+
+   ### 3.1 Mapa de navegación
+
+```mermaid
+graph TD
+    LOGIN[Login] -->|Boton Iniciar Sesión| INICIO[Inicio]
+
+    %% Navegación desde Inicio
+    INICIO -->|Pulsar Producto| DETALLE_PROD[Detalle Producto]
+
+    %% Navegación desde Catálogo
+    CATALOGO[Catálogo] -->|Pulsar Producto| DETALLE_PROD
+
+    %% Flujo de compra
+    DETALLE_PROD -->|Boton Continuar compra| DETALLE_COMPRA[Detalle compra / Carrito]
+    DETALLE_COMPRA -->|Boton Continuar compra| CHECKOUT[Checkout]
+    CHECKOUT -->|Boton Finalizar compra| CONFIRMACION[Confirmación compra]
+    CONFIRMACION -->|Boton Volver al inicio| INICIO
+
+    %% Barra de navegación inferior
+    INICIO -->|Icono Lupa| CATALOGO
+    INICIO -->|Icono Perfil| PERFIL[Perfil]
+
+    CATALOGO -->|Icono Casa| INICIO
+    CATALOGO -->|Icono Perfil| PERFIL
+
+    DETALLE_PROD -->|Icono Casa| INICIO
+    DETALLE_PROD -->|Icono Lupa| CATALOGO
+    DETALLE_PROD -->|Icono Perfil| PERFIL
+
+    DETALLE_COMPRA -->|Icono Casa| INICIO
+    DETALLE_COMPRA -->|Icono Lupa| CATALOGO
+    DETALLE_COMPRA -->|Icono Perfil| PERFIL
+
+    CHECKOUT -->|Icono Casa| INICIO
+    CHECKOUT -->|Icono Lupa| CATALOGO
+    CHECKOUT -->|Icono Perfil| PERFIL
+
+    CONFIRMACION -->|Icono Casa| INICIO
+    CONFIRMACION -->|Icono Lupa| CATALOGO
+    CONFIRMACION -->|Icono Perfil| PERFIL
+
+    PERFIL -->|Icono Casa| INICIO
+    PERFIL -->|Icono Lupa| CATALOGO
+
+    %% Flecha atras
+    DETALLE_PROD -.->|Flecha atrás| INICIO
+    DETALLE_COMPRA -.->|Flecha atrás| DETALLE_PROD
+    CHECKOUT -.->|Flecha atrás| DETALLE_COMPRA
+    CONFIRMACION -.->|Flecha atrás| CHECKOUT
+    PERFIL -.->|Flecha atrás| INICIO
+```
+```markdown
+### 3.2 Wireframes
+
+![Wireframe](capturas/Wireframes/Wireframe.png)
+![Login](capturas/Wireframes/login.png)
+![Inicio](capturas/Wireframes/Inicio.png)
+![Catálogo](capturas/Wireframes/Catalogo.png)
+![Detalle producto](capturas/Wireframes/Detalles-producto.png)
+![Detalle compra](capturas/Wireframes/Detalle-compra.png)
+![Checkout](capturas/Wireframes/Checkout.png)
+![Confirmación compra](capturas/Wireframes/Confirmacion-compra.png)
+![Perfil](capturas/Wireframes/Perfil.png)
+```
