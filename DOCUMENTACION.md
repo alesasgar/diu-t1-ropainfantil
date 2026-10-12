@@ -162,15 +162,15 @@ El prototipo de alta fidelidad de **Rainbow Kid** ha sido desarrollado en Figma 
 
 | Login | Inicio | Catálogo |
 | :---: | :---: | :---: |
-| ![Login](capturas/prototipo/Login.png) | ![Inicio](capturas/prototipo/Inicio.png) | ![Catálogo](capturas/prototipo/Catalogo.png) |
+| ![Login](Capturas/Prototipo/Login.png) | ![Inicio](Capturas/Prototipo/Inicio.png) | ![Catálogo](Capturas/Prototipo/Catalogo.png) |
 
 | Detalle Producto | Guía de Tallas (Bottom Sheet) | Detalle Compra |
 | :---: | :---: | :---: |
-| ![Detalle Producto](capturas/prototipo/Detalle%20producto.png) | ![Guía de Tallas](capturas/prototipo/Guia%20de%20tallas.png) | ![Detalle Compra](capturas/prototipo/Detalle%20compra.png) |
+| ![Detalle Producto](Capturas/Prototipo/Detalle%20producto.png) | ![Guía de Tallas](Capturas/Prototipo/Guia%20de%20tallas.png) | ![Detalle Compra](Capturas/Prototipo/Detalle%20compra.png) |
 
 | Checkout | Confirmación Compra | Perfil |
 | :---: | :---: | :---: |
-| ![Checkout](capturas/prototipo/Checkout.png) | ![Confirmación Compra](capturas/prototipo/Confirmacion%20compra.png) | ![Perfil](capturas/prototipo/Perfil.png) |
+| ![Checkout](Capturas/Prototipo/Checkout.png) | ![Confirmación Compra](Capturas/Prototipo/Confirmacion%20compra.png) | ![Perfil](Capturas/Prototipo/Perfil.png) |
 
 ---
 
@@ -178,15 +178,15 @@ El prototipo de alta fidelidad de **Rainbow Kid** ha sido desarrollado en Figma 
 
 | Login (Oscuro) | Inicio (Oscuro) | Catálogo (Oscuro) |
 | :---: | :---: | :---: |
-| ![Login Oscuro](capturas/prototipo/Login-1.png) | ![Inicio Oscuro](capturas/prototipo/Inicio-1.png) | ![Catálogo Oscuro](capturas/prototipo/Catalogo-1.png) |
+| ![Login Oscuro](Capturas/Prototipo/Login-1.png) | ![Inicio Oscuro](Capturas/Prototipo/Inicio-1.png) | ![Catálogo Oscuro](Capturas/Prototipo/Catalogo-1.png) |
 
 | Detalle Producto (Oscuro) | Detalle Compra (Oscuro) | Checkout (Oscuro) |
 | :---: | :---: | :---: |
-| ![Detalle Producto Oscuro](capturas/prototipo/Detalle%20producto-1.png) | ![Detalle Compra Oscuro](capturas/prototipo/Detalle%20compra-1.png) | ![Checkout Oscuro](capturas/prototipo/Checkout-1.png) |
+| ![Detalle Producto Oscuro](Capturas/Prototipo/Detalle%20producto-1.png) | ![Detalle Compra Oscuro](Capturas/Prototipo/Detalle%20compra-1.png) | ![Checkout Oscuro](Capturas/Prototipo/Checkout-1.png) |
 
 | Confirmación Compra (Oscuro) | Perfil (Oscuro) |
 | :---: | :---: |
-| ![Confirmación Oscuro](capturas/prototipo/Confirmacion%20compra-1.png) | ![Perfil Oscuro](capturas/prototipo/Perfil-1.png) |
+| ![Confirmación Oscuro](Capturas/Prototipo/Confirmacion%20compra-1.png) | ![Perfil Oscuro](Capturas/Prototipo/Perfil-1.png) |
 
 ## 4. Validación y pruebas
 
@@ -230,11 +230,11 @@ A partir del feedback de Paula y Miguel, se aplicó la siguiente mejora en Figma
 
 | Antes de la iteración | Después de la iteración |
 | :---: | :---: |
-| ![Antes](Capturas/iteracion/antesGuia.png) | ![Después](Capturas/iteracion/despuesGuia.png) |
+| ![Antes](Capturas/Iteracion/antesGuia.png) | ![Después](Capturas/Iteracion/despuesGuia.png) |
 
 | Antes de la iteración | Después de la iteración |
 | :---: | :---: |
-| ![Antes](Capturas/iteracion/antesTallaS.png) | ![Después](Capturas/iteracion/despuesTalla.png) |
+| ![Antes](Capturas/Iteracion/antesTallas.png) | ![Después](Capturas/Iteracion/despuesTalla.png) |
  
 ---
 
