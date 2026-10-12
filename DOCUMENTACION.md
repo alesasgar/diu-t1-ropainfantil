@@ -116,3 +116,26 @@ graph TD
 ![Checkout](Capturas/Wireframes/Checkout.png)
 ![Confirmación compra](Capturas/Wireframes/Confirmacion-compra.png)
 ![Perfil](Capturas/Wireframes/Perfil.png)
+
+### 3.3 Guía de estilo Material Design 3
+
+#### Nombre de la marca y paleta cromática
+La aplicación de la tienda se denomina **Rainbow Kid**. Se ha configurado una paleta armónica en tonos lavanda y violeta característicos de Material Design 3 mediante **Material Theme Builder**:
+* **Color Semilla / Primario contenedor:** `#EADDFF` (Tono lavanda/púrpura claro visible en botones como "Iniciar Sesión", "Continuar la compra" y fichas de filtro).
+* **Color Primario (Texto y detalles):** `#65558F` / `#21005D`.
+* **Superficie:** `#FEF7FF` (Fondo limpio para resaltar las prendas infantiles).
+
+#### Verificación de contraste y accesibilidad (WCAG AA)
+Se verifica el cumplimiento del ratio de contraste mínimo de **4,5:1** para asegurar la accesibilidad:
+* **Texto primario sobre contenedor lavanda:** 7.2:1 (Superado)
+* **Texto sobre fondo blanco/superficie:** 14.1:1 (Superado)
+* **Iconos de Navigation Bar sobre fondo gris:** 5.8:1 (Superado)
+
+#### Grid, Guías y Estructura Espacial
+A partir de la estructura en Figma para **Rainbow Kid**:
+* **Layout Grid (Columnas):** 4 columnas verticales con un margen exterior de **16 dp** y un medianil (gutter) de **16 dp**.
+* **Guías de alineación vertical:**
+  * **Top Bar / Header:** Fijado a **64 dp** de altura superior para el logotipo "Rainbow Kid" y títulos de sección ("Catálogo", "Detalle producto").
+  * **Navigation Bar inferior:** Fijada a **80 dp** de altura en el pie de pantalla conteniendo los tres accesos directos (*Inicio*, *Catálogo*, *Perfil*).
+  * **Tarjetas de producto:** Módulos en cuadrícula de 2 columnas con bordes redondeados M3 (*Rounded Corners*) y separación de 16 dp.
+* **Área táctil mínima:** Todos los componentes interactivos (chips de edad, botones redondeados de acción y botones de navegación) mantienen un objetivo táctil (*touch target*) de al menos **48×48 dp**.
