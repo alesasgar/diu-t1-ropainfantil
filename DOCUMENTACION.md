@@ -235,7 +235,7 @@ A partir del feedback de Paula y Miguel, se aplicó la siguiente mejora en Figma
 | Antes de la iteración | Después de la iteración |
 | :---: | :---: |
 | ![Antes](Capturas/iteracion/antesTallaS.png) | ![Después](Capturas/iteracion/despuesTalla.png) |
-
+ 
 ---
 
 #### Palabra del día
