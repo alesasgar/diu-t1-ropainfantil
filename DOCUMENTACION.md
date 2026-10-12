@@ -188,6 +188,54 @@ El prototipo de alta fidelidad de **Rainbow Kid** ha sido desarrollado en Figma 
 | :---: | :---: |
 | ![Confirmación Oscuro](capturas/prototipo/Confirmacion%20compra-1.png) | ![Perfil Oscuro](capturas/prototipo/Perfil-1.png) |
 
+## 4. Validación y pruebas
+
+### 4.1 Metodología
+Se realizaron pruebas de usabilidad en remoto/presencial con dos usuarios representativos del público objetivo para evaluar la fluidez de la interfaz de **Rainbow Kid**.
+
+#### Tareas asignadas:
+1. **Tarea 1:** Iniciar sesión y navegar al catálogo utilizando la barra de búsqueda o filtros.
+2. **Tarea 2:** Seleccionar una prenda infantil (ej. "Conjunto niño día de la independencia"), elegir una talla y avanzar hasta el carrito.
+3. **Tarea 3:** Revisar el desglose del pedido, completar los datos de checkout y finalizar la compra hasta llegar a la confirmación.
+
+#### Métricas evaluadas:
+* **Tasa de éxito:** Si el usuario completó la tarea sin ayuda externa.
+* **Tiempo de ejecución:** Tiempo medio en segundos empleado para completar la tarea.
+* **Número de errores:** Clics fallidos o confusiones durante la navegación.
+
+---
+
+### 4.2 Resultados
+
+| Participante | Tarea | Éxito | Tiempo (s) | Errores | Observaciones / Comentarios |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| **Paula** | Tarea 1 | Sí | 18 s | 0 | Encontró la sección y el catálogo de forma fluida. |
+| **Paula** | Tarea 2 | Sí | 32 s | 1 | No puedo seleccionar una talla. |
+| **Paula** | Tarea 3 | Sí | 25 s | 0 | Completó el Checkout de forma rápida. |
+| **Miguel** | Tarea 1 | Sí | 22 s | 0 | Navegó directamente mediante el icono de la lupa. |
+| **Miguel** | Tarea 2 | Sí | 40 s | 1 | Mencionó que no se veia la tabla de tallas. |
+| **Miguel** | Tarea 3 | Sí | 28 s | 0 | Proceso de compra claro e intuitivo. |
+
+#### Hallazgos principales:
+1. **Contraste e identificación de selección de talla:** Paula dijo que no se pueden seleccionar las tallas.
+2. **No se ve la guia de tallas:** Miguel dijo que al pulsar la guia de tallas no aparecia la tabla de tallas.
+3. **Navegación fluida:** Los dos completaron la compra en poco tiempo cumpliendo el objetivo principal.
+
+---
+
+### 4.3 Iteraciones y mejoras
+
+A partir del feedback de Paula y Miguel, se aplicó la siguiente mejora en Figma:
+* **Mejora realizada:** Se puedo seleccionar el escoger talla y se relleno la tabla de guia de tallas.
+
+| Antes de la iteración | Después de la iteración |
+| :---: | :---: |
+| ![Antes](Capturas/iteracion/antesGuia.png) | ![Después](Capturas/iteracion/despuesGuia.png) |
+
+| Antes de la iteración | Después de la iteración |
+| :---: | :---: |
+| ![Antes](Capturas/iteracion/antesTallaS.png) | ![Después](Capturas/iteracion/despuesTalla.png) |
+
 ---
 
 #### Palabra del día
