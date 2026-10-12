@@ -191,4 +191,4 @@ El prototipo de alta fidelidad de **Rainbow Kid** ha sido desarrollado en Figma 
 ---
 
 #### Palabra del día
-Se ha insertado en el pie de la pantalla **Perfil** la frase requerida: **Palabra del dia: 29**.
+Se ha insertado en el pie de la pantalla **Perfil** la frase requerida: Palabra del dia: 29
