@@ -104,16 +104,15 @@ graph TD
     CONFIRMACION -.->|Flecha atrás| CHECKOUT
     PERFIL -.->|Flecha atrás| INICIO
 ```
-```markdown
+
 ### 3.2 Wireframes
 
-![Wireframe](capturas/Wireframes/Wireframe.png)
-![Login](capturas/Wireframes/login.png)
-![Inicio](capturas/Wireframes/Inicio.png)
-![Catálogo](capturas/Wireframes/Catalogo.png)
-![Detalle producto](capturas/Wireframes/Detalles-producto.png)
-![Detalle compra](capturas/Wireframes/Detalle-compra.png)
-![Checkout](capturas/Wireframes/Checkout.png)
-![Confirmación compra](capturas/Wireframes/Confirmacion-compra.png)
-![Perfil](capturas/Wireframes/Perfil.png)
-```
+![Wireframes](Capturas/Wireframes/Wireframe.png)
+![Login](Capturas/Wireframes/login.png)
+![Inicio](Capturas/Wireframes/Inicio.png)
+![Catálogo](Capturas/Wireframes/Catalogo.png)
+![Detalle producto](Capturas/Wireframes/Detalles-producto.png)
+![Detalle compra](Capturas/Wireframes/Detalle-compra.png)
+![Checkout](Capturas/Wireframes/Checkout.png)
+![Confirmación compra](Capturas/Wireframes/Confirmacion-compra.png)
+![Perfil](Capturas/Wireframes/Perfil.png)

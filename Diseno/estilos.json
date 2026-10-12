@@ -1,0 +1,71 @@
+{
+  "propietario": "alesasgar",
+  "tienda": "Rainbow Kid",
+  "colorSemilla": "#D8CEEE",
+  "esquema": {
+    "claro": {
+      "primary": "#65558F",
+      "onPrimary": "#FFFFFF",
+      "primaryContainer": "#EADDFF",
+      "onPrimaryContainer": "#21005D",
+      "secondary": "#625B71",
+      "onSecondary": "#FFFFFF",
+      "tertiary": "#7D5260",
+      "onTertiary": "#FFFFFF",
+      "surface": "#FEF7FF",
+      "onSurface": "#1D1B20",
+      "error": "#B3261E",
+      "onError": "#FFFFFF"
+    },
+    "oscuro": {
+      "primary": "#D0BCFF",
+      "onPrimary": "#381E72",
+      "primaryContainer": "#4F378B",
+      "onPrimaryContainer": "#EADDFF",
+      "secondary": "#CCC2DC",
+      "onSecondary": "#332D41",
+      "tertiary": "#EFB8C8",
+      "onTertiary": "#492532",
+      "surface": "#141218",
+      "onSurface": "#E6E0E9",
+      "error": "#F2B8B5",
+      "onError": "#601410"
+    }
+  },
+  "tipografia": {
+    "familia": "Roboto",
+    "roles": {
+      "headlineSmall": { "tamano": 24, "interlineado": 32, "peso": 400 },
+      "titleLarge":    { "tamano": 22, "interlineado": 28, "peso": 400 },
+      "titleMedium":   { "tamano": 16, "interlineado": 24, "peso": 500 },
+      "bodyLarge":     { "tamano": 16, "interlineado": 24, "peso": 400 },
+      "labelLarge":    { "tamano": 14, "interlineado": 20, "peso": 500 }
+    }
+  },
+  "espaciado": {
+    "base": 8,
+    "margenPantalla": 16,
+    "columnas": 4,
+    "areaTactilMinima": 48
+  },
+  "componentes": [
+    "Top app bar",
+    "Navigation bar",
+    "Card",
+    "Filter chip",
+    "Button",
+    "Text field",
+    "Snackbar",
+    "Bottom sheet"
+  ],
+  "componentesPropios": [
+    {
+      "nombre": "TarjetaProducto",
+      "variantes": ["normal", "favorito", "agotado"]
+    },
+    {
+      "nombre": "SelectorTalla",
+      "variantes": ["disponible", "seleccionada", "sin stock"]
+    }
+  ]
+}
