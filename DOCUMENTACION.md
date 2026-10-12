@@ -238,5 +238,21 @@ A partir del feedback de Paula y Miguel, se aplicó la siguiente mejora en Figma
  
 ---
 
-#### Palabra del día
-Se ha insertado en el pie de la pantalla **Perfil** la frase requerida: Palabra del dia: 29
+## 5. Entrega y documentación final
+
+### 5.1 Justificación del diseño propuesto
+El diseño propuesto para **Rainbow Kid** resuelve de manera integral las necesidades detectadas durante la investigación inicial. Mediante la adopción del sistema **Material Design 3**, la interfaz ofrece una navegación intuitiva orientada al uso con una sola mano, una categorización clara por rangos de edad y un proceso de Checkout optimizado que minimiza la carga cognitiva del usuario. La inclusión del selector de tallas propio y la guía desplegable mediante un Bottom Sheet garantizan compras con mayor grado de certeza, reduciendo directamente las devoluciones por errores de tallaje.
+
+### 5.2 Recomendaciones y pasos a seguir
+1. **Pruebas A/B en checkout:** Probar distintas disposiciones del formulario de pago para optimizar aún más el tiempo medio de compra.
+2. **Animaciones y microinteracciones adicionales:** Añadir transiciones microinteractivas al pulsar sobre los botones de favoritos y añadir al carrito para mejorar el *feedback* háptico y visual.
+3. **Módulo de recomendaciones personalizadas:** Incorporar una sección inteligente en el Inicio basada en compras previas según la edad de los niños.
+
+---
+
+## 6. Referencias bibliográficas
+
+1. Google. (2023). *Material Design 3 Specification*. Google Design. https://m3.material.io/
+---
+
+Palabra del día: 29
