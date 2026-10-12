@@ -141,3 +141,54 @@ A partir de la estructura en Figma para **Rainbow Kid**:
   * **Navigation Bar inferior:** Fijada a **80 dp** de altura en el pie de pantalla conteniendo los tres accesos directos (*Inicio*, *Catálogo*, *Perfil*).
   * **Tarjetas de producto:** Módulos en cuadrícula de 2 columnas con bordes redondeados M3 (*Rounded Corners*) y separación de 16 dp.
 * **Área táctil mínima:** Todos los componentes interactivos (chips de edad, botones redondeados de acción y botones de navegación) mantienen un objetivo táctil (*touch target*) de al menos **48×48 dp**.
+
+### 3.4 Prototipo de alta fidelidad
+
+El prototipo de alta fidelidad de **Rainbow Kid** ha sido desarrollado en Figma aplicando las especificaciones de **Material Design 3 (M3)** sobre un marco de **360×800 px** (Android Compact). La interfaz utiliza la paleta de colores lavanda/púrpura (`#EADDFF` / `#65558F`), tipografía oficial **Roboto** y un sistema de rejilla de 4 columnas con márgenes de 16 dp y áreas táctiles mínimas de 48×48 dp.
+
+#### Componentes principales y flujo interactivo
+* **Login y Acceso Directo:** Pantalla de bienvenida minimalista con el logotipo "Rainbow Kid" y un botón directo de inicio de sesión.
+* **Navegación e Inicio:** Categorización visible por grupos de edad (*0-24 meses*, *Niña 2-14 años*, *Niño 2-14 años*) y tarjetas de productos enriquecidas.
+* **Catálogo y Filtrado:** Incorporación de *Filter Chips* para filtrar rápidamente por edad, talla, color y precio.
+* **Ficha de Producto y Guía de Tallas:** Selector propio de tallas interactivo (*SelectorTalla*) y botón de llamada a la acción para desplegar la **Guía de Tallas** mediante un *Bottom Sheet* emergente.
+* **Carrito y Resumen:** Pantalla de detalle de compra con gestión de cantidades, opción de eliminación con *Snackbar* "Deshacer" y desglose claro de importes.
+* **Checkout y Validación:** Formulario con campos de texto M3, incluyendo estado de error visual para prevenir fallos durante la introducción del correo o dirección.
+* **Confirmación de Compra:** Pantalla final con resumen del pedido, número de seguimiento y botón para retornar al inicio.
+* **Perfil y Palabra del Día:** Espacio de usuario con gestión de pedidos, métodos de pago y direcciones. En el pie de pantalla se muestra la **Palabra del día: 29**.
+
+---
+
+#### Capturas del Prototipo en Modo Claro
+
+| Login | Inicio | Catálogo |
+| :---: | :---: | :---: |
+| ![Login](capturas/prototipo/Login.png) | ![Inicio](capturas/prototipo/Inicio.png) | ![Catálogo](capturas/prototipo/Catalogo.png) |
+
+| Detalle Producto | Guía de Tallas (Bottom Sheet) | Detalle Compra |
+| :---: | :---: | :---: |
+| ![Detalle Producto](capturas/prototipo/Detalle%20producto.png) | ![Guía de Tallas](capturas/prototipo/Guia%20de%20tallas.png) | ![Detalle Compra](capturas/prototipo/Detalle%20compra.png) |
+
+| Checkout | Confirmación Compra | Perfil |
+| :---: | :---: | :---: |
+| ![Checkout](capturas/prototipo/Checkout.png) | ![Confirmación Compra](capturas/prototipo/Confirmacion%20compra.png) | ![Perfil](capturas/prototipo/Perfil.png) |
+
+---
+
+#### Capturas del Prototipo en Modo Oscuro
+
+| Login (Oscuro) | Inicio (Oscuro) | Catálogo (Oscuro) |
+| :---: | :---: | :---: |
+| ![Login Oscuro](capturas/prototipo/Login-1.png) | ![Inicio Oscuro](capturas/prototipo/Inicio-1.png) | ![Catálogo Oscuro](capturas/prototipo/Catalogo-1.png) |
+
+| Detalle Producto (Oscuro) | Detalle Compra (Oscuro) | Checkout (Oscuro) |
+| :---: | :---: | :---: |
+| ![Detalle Producto Oscuro](capturas/prototipo/Detalle%20producto-1.png) | ![Detalle Compra Oscuro](capturas/prototipo/Detalle%20compra-1.png) | ![Checkout Oscuro](capturas/prototipo/Checkout-1.png) |
+
+| Confirmación Compra (Oscuro) | Perfil (Oscuro) |
+| :---: | :---: |
+| ![Confirmación Oscuro](capturas/prototipo/Confirmacion%20compra-1.png) | ![Perfil Oscuro](capturas/prototipo/Perfil-1.png) |
+
+---
+
+#### Palabra del día
+Se ha insertado en el pie de la pantalla **Perfil** la frase requerida: **Palabra del dia: 29**.
