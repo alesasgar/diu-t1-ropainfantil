@@ -14,4 +14,4 @@ Bienvenido al repositorio oficial del diseño y prototipo de la aplicación móv
 
 ## 📸 Captura Destacada
 
-![Rainbow Kid - Pantallas Principales](capturas/prototipo/inicio.png)
+![Rainbow Kid - Pantallas Principales](Capturas/Prototipo/Inicio.png)
