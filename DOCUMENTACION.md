@@ -104,7 +104,6 @@ graph TD
     CONFIRMACION -.->|Flecha atrás| CHECKOUT
     PERFIL -.->|Flecha atrás| INICIO
 ```
-<<<<<<< HEAD
 
 ### 3.2 Wireframes
 
@@ -117,7 +116,6 @@ graph TD
 ![Checkout](Capturas/Wireframes/Checkout.png)
 ![Confirmación compra](Capturas/Wireframes/Confirmacion-compra.png)
 ![Perfil](Capturas/Wireframes/Perfil.png)
-<<<<<<< HEAD
 
 ### 3.3 Guía de estilo Material Design 3
 
